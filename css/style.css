@@ -39,10 +39,14 @@ ul {
     text-decoration: none;
 }
 
-.menu-link:hover,
-.menu-link:active,
-.menu-link:focus {
-    color: #4d5ae5;
+.menu-item:hover,
+.menu-item:active,
+.menu-item:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
 }
 
 .header-contacts {
@@ -55,19 +59,19 @@ ul {
 .header-contacts:hover,
 .header-contacts:active,
 .header-contacts:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .main-title {
     background-color: #2e2f42;
-    /* width: 1440px;
-    height: 600px; */
+
+
 }
 
 .main-title-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -113,11 +117,15 @@ ul {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
 
 .team-list {
@@ -141,7 +149,7 @@ ul {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -171,14 +179,14 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 }
 
-.footer-logo span {
+.logo-span {
     color: #f4f4fd;
 }
 
